@@ -22,7 +22,7 @@
         <activity android:name=".ui.SettingsActivity" />
         <activity android:name=".ui.AddedActivity" />
         <activity android:name=".ui.ExtraActivity" />
-        <activity android:name=".ui.NewActivity" />
+        <activity android:name=".ui.ModifiedActivity" />
 
         <provider
             android:name=".db.PodcastProvider"
