@@ -20,6 +20,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.SettingsActivity" />
+        <activity android:name=".ui.SetActivity" />
+        <activity android:name=".ui.SingsActivity" />
+        <activity android:name=".ui.AddedActivity" />
+        <activity android:name=".ui.ExtraActivity" />
+        <activity android:name=".ui.NewActivity" />
 
         <provider
             android:name=".db.PodcastProvider"
