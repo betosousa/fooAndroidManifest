@@ -24,6 +24,7 @@
         <activity android:name=".ui.ExtraActivity" />
         <activity android:name=".ui.RepeatedActivity" />
         <activity android:name=".ui.NewActivity" />
+        <activity android:name=".ui.MainActivity" />
 
         <provider
             android:name=".db.PodcastProvider"
