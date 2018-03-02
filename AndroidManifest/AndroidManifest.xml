@@ -23,7 +23,6 @@
         <activity android:name=".ui.AddedActivity" />
         <activity android:name=".ui.ExtraActivity" />
         <activity android:name=".ui.RepeatedActivity" />
-        <activity android:name=".ui.NewActivity" />
         <activity android:name=".ui.MainActivity" />
 
         <provider
