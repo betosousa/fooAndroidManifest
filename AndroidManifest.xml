@@ -14,16 +14,15 @@
         android:theme="@style/AppTheme">
         <activity android:name=".ui.MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.ACTION_CHANGE_DEFAULT" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".ui.MainActivity" />
         <activity android:name=".ui.AnotherActivity" android:permission="android.permission.READ_OWNER_DATA" />
-        <activity android:name=".ui.ModifiedActivity" />
         <activity android:name=".ui.RepeatedActivity" android:permission="android.permission.READ_OWNER_DATA" />
-
+		<activity android:name=".ui.NewTestActivity" />
 
         <provider
             android:name=".db.PodcastProvider"
