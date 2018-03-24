@@ -29,13 +29,13 @@
             android:name=".db.PodcastProvider"
             android:authorities="br.ufpe.cin.if710.podcast.feed"
             android:enabled="true"
-            android:exported="true" />
+            android:exported="false" />
 
         <activity android:name=".ui.EpisodeDetailActivity"></activity>
         <activity android:name=".ui.PlayActivity"/>
         <receiver android:name=".download.BackgroundReceiver">
             <intent-filter>
-                <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+                <action android:name="android.intent.action.DATA_SMS_RECEIVED_ACTION"/>
             </intent-filter>
         </receiver>
         <receiver android:name=".download.ItensBackgroundReceiver">
