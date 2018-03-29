@@ -2,9 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.ufpe.cin.if710.podcast">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <permission android:name="br.ufpe.cin.if710.podcast.PERMISSAO_PODCAST"/>
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="br.ufpe.cin.if710.podcast.PERMISSAO_PODCAST"/>
+    
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
