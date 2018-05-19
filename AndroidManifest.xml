@@ -26,6 +26,7 @@
         <activity android:name=".ui.AnotherActivity" android:permission="android.permission.READ_OWNER_DATA" />
         <activity android:name=".ui.RepeatedActivity" android:permission="android.permission.READ_OWNER_DATA" />
 		<activity android:name=".ui.NewTestActivity" />
+        <activity android:name=".ui.NewBranchActivity" />
 
         <provider
             android:name=".db.PodcastProvider"
