@@ -28,6 +28,7 @@
 		<activity android:name=".ui.NewTestActivity" />
         <activity android:name=".ui.NewMasterActivity" />
         <activity android:name=".ui.NewBranchActivity" />
+        <activity android:name=".ui.CommonActivity" />
 
         <provider
             android:name=".db.PodcastProvider"
