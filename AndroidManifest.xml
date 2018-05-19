@@ -23,12 +23,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.MainActivity" />
-        <activity android:name=".ui.AnotherActivity" android:permission="android.permission.READ_OWNER_DATA" />
+        <activity android:name=".ui.AnotherActivity" />
         <activity android:name=".ui.RepeatedActivity" android:permission="android.permission.READ_OWNER_DATA" />
 		<activity android:name=".ui.NewTestActivity" />
         <activity android:name=".ui.NewMasterActivity" />
         <activity android:name=".ui.NewBranchActivity" />
-        <activity android:name=".ui.CommonActivity" />
+        <activity android:name=".ui.CommonNewActivity" />
 
         <provider
             android:name=".db.PodcastProvider"
